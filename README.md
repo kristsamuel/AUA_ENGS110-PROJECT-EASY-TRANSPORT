@@ -20,6 +20,7 @@ Solution: Application suggests land transports such as private sedan cars, taxis
 
 
 User stories
+
 In case of regular use, the application will automatically provide the information to the user immediately.
 Users can rate the service and give opinions, suggestions.
 Users will be provided with additional information about ride quality, transport details, etc.
