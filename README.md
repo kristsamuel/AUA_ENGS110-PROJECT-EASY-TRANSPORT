@@ -14,18 +14,26 @@ User can be anyone willing to get from point A to B in the most optimal, efficie
 User problem solved
 
 Problem: Find whether buses reach the user’s desired destination, or if the bus tickets are free of charge. 
+
 Solution: Application suggests every bus that reaches the desired destination, suggests the ticket charge, ticket availability. 
+
 Problem: Find the cheapest transport available for the desired route. 
+
 Solution: Application instantly suggests transportation types; air, water, land. The cheapest options are highlighted for the user. Additionally, every category contains information such as arrival time, availability, cost and timing. 
+
 Problem: Find premium transport for a business meeting.
+
 Solution: Application suggests land transports such as private sedan cars, taxis, family vans. User chooses the desired transport. Additional information, such as cost, time to departure will be provided for enhanced comfort. 
 
 
 User stories
 
 In case of regular use, the application will automatically provide the information to the user immediately.
+
 Users can rate the service and give opinions, suggestions.
+
 Users will be provided with additional information about ride quality, transport details, etc.
+
 Users for the first time will be presented with a guidance to get familiar with the application, its features and capabilities. 
 
 
