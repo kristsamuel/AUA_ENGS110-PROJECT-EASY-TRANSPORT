@@ -2,6 +2,7 @@
 Individual Project
 
 Overview
+
 This application is designed to help the population navigate and find the most optimal way of transportation to reach the desired destination. User inserts the start point and endpoint of a destination and the application seeks for transportation methods. User then, has the option to choose and even buy tickets that are required for the transport. 
 
 
