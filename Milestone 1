@@ -1,112 +1,217 @@
 {
-"transportation_types":  [
-   {
-   "name" : "taxi,
-   "capacity" : 4,
-   "price_per_km" : 100,
-   "total_price" : null,
-   "field of operation" : "land",
-   "has_route" : false
-
-   },
-   {
-   "name" : "bus",
-   "capacity" : 20,
-   "price_per_km" : null,
-   "total_price" : 100,
-   "field of operation" : "land",
-   "has_route" : true
-   }
-   {
-   "name" : "minibus,
-   "capacity" : 10,
-   "price_per_km" : null,
-   "total_price" : 100,
-   "field of operation" : "land",
-   "has_route" : true
-   }
-   {
-   "name" : "trolleybus",
-   "capacity" : 30,
-   "price_per_km" : null,
-   "total_price" : 50,
-   "field of operation" : "land",
-   "has_route" : true
-   }
-   {
-   "name" : "metro,
-   "capacity" : 100,
-   "price_per_km" : null,
-   "total_price" : 100,
-   "field of operation" : "land",
-   "has_route" : false
-   }
-   {
-   "name" : "bicycle,
-   "capacity" : 1,
-   "price_per_km" : 100,
-   "total_price" : null,
-   "field of operation" : "land",
-   "has_route" : false
-   }
-
-  ],
-   "bus" : [
-   {
-   "ID" : "3",
-   "driver_ID" : "A1234",
-   "license_plate" : "11AB123",
-   "departure_to_destination" : "South-Western district_Nor Norq 9th district",
-   "travel_duration_min" : "60",
-   "online_ticket_purchase" : True,
-   "location" : "Null"
-   }
-  ],
-   "taxi" : [
-   {
-    "driver_ID" : "A1454",
-    "license_plate" : "23BA345",
-    "initial_fare" : "500",
-    "final_fare" : "Null",
-    "online_order" : True,
-    "location" : "Null"
-    }
-   ],
-   "minibus" : [
+  "transportation_types": [
     {
-
-    "ID" : "1"
-    "driver_ID" : "A9999",
-    "license_plate" : "56KL124",
-    "departure_to_destination" : "Erebuni Airport-Zoravar Andranik str",
-    "travel_duration_min" : "40",
-    "online_ticket_purchase" : False,
-    "location" : "Null"
-    }
-   ],
-   "trolleybus" : [
-   {
-   "ID" : "15",
-   "driver_ID" : "B2345",
-   "license_plate" : "99KP998",
-   "departure_to_destination" : "15th district-Erebuni Airport",
-   "travel_duration_min" : "30",
-   "online_ticket_purchase" : True,
-   "location" : "Null"
-   }
-  ],
-  "metro" : [
-   {
-   "driver_ID" : "K1344",
-   "departure_to_destination" : "Barekamutyun-Garegin Nzhdeh Square",
-   "travel_duration_min" : "30",
-   "online_ticket_purchase" : False,
-    }
-   ],
-   "bicycle" : [
+      "name": "Taxi",
+      "capacity": 4,
+      "price_per_km": 100,
+      "total_price": null,
+      "field of operation": "land",
+      "has_route": false
+    },
     {
-    "ID" : H1287,
-    "location" : "Null",
+      "name": "bus",
+      "capacity": 20,
+      "price_per_km": null,
+      "total_price": 100,
+      "field of operation": "land",
+      "has_route": true
+    },
+    {
+      "name": "minibus",
+      "capacity": 10,
+      "price_per_km": null,
+      "total_price": 100,
+      "field of operation": "land",
+      "has_route": true
+    },
+    {
+      "name": "trolleybus",
+      "capacity": 30,
+      "price_per_km": null,
+      "total_price": 50,
+      "field of operation": "land",
+      "has_route": true
+    },
+    {
+      "name": "metro",
+      "capacity": 100,
+      "price_per_km": null,
+      "total_price": 100,
+      "field of operation": "land",
+      "has_route": false
+    },
+    {
+      "name": "bicycle",
+      "capacity": 1,
+      "price_per_km": 100,
+      "total_price": null,
+      "field of operation": "land",
+      "has_route": false
+    },
+    {
+      "name" : "helicopter",
+      "capacity" : 6,
+      "price_per_km" : null,
+      "total_price" : null,
+      "field of operation" : "air",
+      "has_route" : false
+    },
+    {
+      "name" : "airplane",
+      "capacity" : 150,
+      "price_per_km" : null,
+      "total_price" : null,
+      "field of operation" : "air",
+      "has_route" : true
+    },
+    {
+      "name" : "boat",
+      "capacity" : 15,
+      "price_per_km" : null,
+      "total_price" : null,
+      "field of operation" : "water",
+      "has_route" : true
+    },
+    {
+      "name" : "jet scooter",
+      "capacity" : 2,
+      "price_per_km" : null,
+      "total_price" : null,
+      "field of operation" : "water",
+      "has_route" : true
+    },
+    {
+      "name" : "motor boat",
+      "capacity" : 6,
+      "price_per_km" : null,
+      "total_price" : null,
+      "field of operation" : "water",
+      "has_route" : true
+    },
+    {
+      "name" : "passenger ship",
+      "capacity" : 3000,
+      "price_per_km" : null,
+      "total_price" : null,
+      "field of operation" : "water",
+      "has_route" : true
     }
-   ],
-    
+
+  ],
+  "transportation_type_description": [
+    {
+      "bus": {
+        "ID": "3",
+        "driver_ID": "A1234",
+        "license_plate": "11AB123",
+        "departure_to_destination": "South-Western district_Nor Norq 9th district",
+        "travel_duration_min": "60",
+        "online_ticket_purchase": true,
+        "location": "Null"
+      }
+    },
+    {
+      "taxi": {
+        "driver_ID": "A1454",
+        "license_plate": "23BA345",
+        "initial_fare": "500",
+        "final_fare": "Null",
+        "online_order": true,
+        "location": null
+      }
+    },
+    {
+      "minibus": {
+        "ID": "1",
+        "driver_ID": "A9999",
+        "license_plate": "56KL124",
+        "departure_to_destination": "Erebuni Airport-Zoravar Andranik str",
+        "travel_duration_min": "40",
+        "online_ticket_purchase": false,
+        "location": "Null"
+      }
+    },
+    {
+      "trolleybus": {
+        "ID": "15",
+        "driver_ID": "B2345",
+        "license_plate": "99KP998",
+        "departure_to_destination": "15th district-Erebuni Airport",
+        "travel_duration_min": "30",
+        "online_ticket_purchase": true,
+        "location": "Null"
+      }
+    },
+    {
+      "metro": {
+        "driver_ID": "K1344",
+        "departure_to_destination": "Barekamutyun-Garegin Nzhdeh Square",
+        "travel_duration_min": "30",
+        "online_ticket_purchase": false
+      }
+    },
+    {
+      "bicycle": {
+        "ID": "H1287",
+        "location": "Null"
+      }
+    },
+    {
+      "helicopter" : {
+        "driver_ID" : "B1245",
+        "license_plate" : "83AB12",
+        "departure_to_destination": null,
+        "travel_duration_min": null,
+        "online_ticket_purchase": true
+      }
+    },
+    {
+      "airplane" : {
+        "pilot_ID" : "A5654",
+        "departure_to_destination": null,
+        "travel_duration_min": null,
+        "online_ticket_purchase": true,
+      }
+    },
+    {
+      "boat" : {
+        "driver_ID" : "C1245",
+        "license_ID" : "K1941",
+        "departure_to_destination": null,
+        "travel_duration_min": null,
+        "online_ticket_purchase": true
+      }
+    },
+    {
+      "jet scooter" : {
+        "driver_ID" : "P8351",
+        "license_ID" : "W3814",
+        "departure_to_destination": null,
+        "travel_duration_min": null,
+        "online_ticket_purchase": true
+      }
+    },
+    {
+      "motor boat" : {
+        "driver_ID" : "R1345",
+        "license_ID" : "M1234",
+        "departure_to_destination": null,
+        "travel_duration_min": null,
+        "online_ticket_purchase": true,
+      }
+    },
+    {
+      "passenger boat" : {
+        "driver_ID" : "D1234",
+        "license_ID" : "F1234",
+        "departure_to_destination": null,
+        "travel_duration_min": null,
+        "online_ticket_purchase": true
+      }
+    }
+
+
+
+  ]
+}
+
