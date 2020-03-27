@@ -1,0 +1,10 @@
+{
+      "taxi": {
+        "driver_ID": "A1454",
+        "license_plate": "23BA345",
+        "initial_fare": "500",
+        "final_fare": "Null",
+        "online_order": true,
+        "location": null
+      }
+    }
