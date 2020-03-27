@@ -1,0 +1,34 @@
+import json
+
+field_of_operation = input("Please choose the field of operation; land, air, water")
+
+if field_of_operation  == "land":
+  l = input("Please choose transportation type; bus, minibus, taxi, trolleybus, metro, bicycle")
+  if l=="bus" :
+      with open("exp.json") as file_data :
+          json_data = json.load(file_data)
+          print(json.dumps(json_data["bus"], indent=4))
+  elif l=="taxi" :
+      with open("expo.json") as file_data :
+          json_data = json.load(file_data)
+          print(json.dumps(json_data["taxi"], indent=4))
+  elif l=="minibus" :
+      with open("expor.json") as file_data :
+          json_data = json.load(file_data)
+          print(json.dumps(json_data["minibus"], indent=4))
+  elif l=="trolleybus" :
+      with open("export.json") as file_data :
+          json_data = json.load(file_data)
+          print(json.dumps(json_data["trolleybus"], indent=4))
+  elif l=="metro" :
+      with open("exporte.json") as file_data :
+          json_data = json.load(file_data)
+          print(json.dumps(json_data["metro"], indent=4))
+  elif l=="bicycle" :
+      with open("exportem.json") as file_data :
+          json_data = json.load(file_data)
+          print(json.dumps(json_data["bicycle"], indent=4))
+
+
+
+
