@@ -1,0 +1,528 @@
+{
+  "Armenia":{
+    "Yerevan": {
+        "Sport/Concert Complex named After Karen Demirchyan": {
+          "latitude":  40.187999,
+          "longitude": 44.482983
+        },
+        "Tumo Center for Creative Technologies": {
+          "latitude": 40.196610,
+          "longitude": 44.480308
+        },
+        "Barekamutyan Hraparak" : {
+          "latitude": 40.197661,
+          "longitude": 44.493046,
+        },
+        "Mergelyan Institute" : {
+          "latitude": 40.199576,
+          "longitude": 44.490724
+        },
+        "Slavmed Medical Center": {
+          "latitude": 40.195260,
+          "longitude": 44.493140
+        },
+        "American University of Armenia" : {
+          "latitude": 40.193179,
+          "longitude": 44.504364
+        },
+        "Residence of the Prime Minister of the RA" : {
+          "latitude": 40.192714,
+          "longitude": 44.506221
+        },
+        "National Academy of Sciences of Armenia" : {
+          "latitude": 40.192348,
+          "longitude": 44.508769
+        },
+        "National Assembly of Armenia" : {
+          "latitude": 40.190083,
+          "longitude": 44.509090
+        },
+        "France Square" : {
+          "latitude": 40.187141,
+          "longitude": 44.515370
+        },
+        "Armenian Opera Theatre" : {
+          "latitude": 40.185873,
+          "longitude": 44.514941
+        },
+        "Republic Square" : {
+          "latitude": 40.177633,
+          "longitude": 44.512612
+        },
+        "English Park" : {
+          "latitude": 40.174091,
+          "longitude": 44.508063
+        },
+        "Matenadaran" : {
+          "latitude": 40.19207,
+          "longitude": 44.52113
+        },
+        "Cascade" : {
+          "latitude": 40.1911,
+          "longitude": 44.5156
+        },
+        "Victory Park"     : {
+          "latitude": 40.1957,
+          "longitude": 44.5203
+        }
+
+
+
+    },
+    "Abovyan": {
+
+    },
+    "Dilijan": {
+
+    },
+    "Ashtarak": {
+
+    }
+
+  },
+  "Austria": {
+    "Vienna": {
+      "Schönbrunn Palace": {
+        "latitude": 48.1858,
+        "longitude": 16.3128
+      },
+      "The Hofburg": {
+        "latitude": 48.2077,
+        "longitude": 16.3661
+      },
+      "Belvedere Palace": {
+        "latitude": 48.1916,
+        "longitude": 16.3810
+      }
+
+
+    },
+    "Innsbruck": {
+      "Golden Roof": {
+        "latitude": 47.2687,
+        "longitude": 11.3933
+      },
+      "Ambras Castle": {
+        "latitude": 47.2566,
+        "longitude": 11.4336
+      },
+      "Court Church": {
+        "latitude": 47.2684,
+        "longitude": 11.3954
+      },
+      "Bergisel Ski Jump": {
+        "latitude": 47.2491,
+        "longitude": 11.3995
+      }
+
+    },
+    "Graz": {
+
+    },
+    "Linz": {
+
+    },
+    "Salzburg": {
+      "Fortress Hohensalzburg": {
+        "latitude": 47.7949,
+        "longitude": 13.0477
+      },
+      "Mirabell Palace": {
+        "latitude": 47.8054,
+        "longitude": 13.0417
+      },
+      "Schloss Hellbrunn ": {
+        "latitude": 47.7621,
+        "longitude": 13.0603
+      },
+      "Salzburg Cathedral": {
+        "latitude": 47.7978,
+        "longitude": 13.0469
+      }
+
+    },
+    "Klagenfurt": {
+
+    },
+    "Hallstatt": {
+
+    },
+    "Steyr": {
+      "Schloss Lamberg": {
+        "latitude": 48.0417,
+        "longitude": 14.4192
+      },
+      "Museum der Stadt Steyr": {
+        "latitude": 48.0369,
+        "longitude": 14.4178
+      },
+      "Stadtplatz": {
+        "latitude": 48.0395,
+        "longitude": 14.4195
+      },
+      "Bummerlhaus": {
+        "latitude": 48.0389,
+        "longitude": 14.4188
+      }
+
+    }
+
+  },
+  "United States of America": {
+    "New York": {
+      "Statue of Liberty National Monument": {
+        "latitude": 40.6892,
+        "longitude": 74.0445
+      },
+      "Central Park": {
+        "latitude": 40.7829,
+        "longitude": 73.9654
+      },
+      "Times Square": {
+        "latitude": 40.7580,
+        "longitude": 73.9855
+      },
+      "Empire State Building": {
+        "latitude": 40.7484,
+        "longitude": 73.9857
+
+      }
+
+    },
+    "San Francisco": {
+      "Golden Gate Bridge": {
+        "latitude": 37.8199,
+        "longitude":  122.4783
+      },
+      "Alcatraz Island": {
+        "latitude": 37.8270,
+        "longitude": 122.4230
+      },
+      "Fisherman's Wharf": {
+        "latitude": 37.8080,
+        "longitude": 122.4177
+      }
+
+
+    },
+    "Washington DC": {
+      "United States Capitol": {
+        "latitude": 38.8899,
+        "longitude":  77.0091
+      },
+      "Washington Monument": {
+        "latitude": 38.8895,
+        "longitude": 77.0353
+      },
+      "The Pentagon": {
+        "latitude": 38.8719,
+        "longitude": 77.0563
+      }
+
+    },
+    "Chicago": {
+
+    },
+    "Los Angeles": {
+
+    },
+    "Seattle": {
+
+    },
+    "Boston": {
+
+    },
+    "Austin": {
+
+    },
+    "Denver": {
+
+    }
+
+  },
+  "Belgium" : {
+    "Antwerp": {
+      "Museum aan de Stroom": {
+        "latitude": 51.2289,
+        "longitude": 4.4048
+      },
+      "The Rubens House": {
+        "latitude": 51.2170,
+        "longitude": 4.4093
+      },
+      "Plantin-Moretus Museum": {
+        "latitude": 51.2184,
+        "longitude": 4.3980
+      }
+
+    },
+    "Ghent": {
+      "Gravensteen": {
+        "latitude": 51.0575,
+        "longitude": 3.7207
+      },
+      "Het Belfort van Gent": {
+        "latitude": 51.0536,
+        "longitude": 3.7249
+      },
+      "Saint Bavo's Cathedral": {
+        "latitude": 51.0530,
+        "longitude": 3.7271
+      }
+
+    },
+    "Bruges": {
+      "Markt Schwaben": {
+        "latitude": 48.1909,
+        "longitude": 11.8630
+      },
+      "Ebersberg": {
+        "latitude": 48.0623,
+        "longitude": 11.8870
+      },
+      "Church of our Lady Bruges": {
+        "latitude": 51.2046,
+        "longitude": 3.2245
+      }
+
+    },
+    "Anderlecht": {
+
+    },
+    "Genk": {
+
+    },
+    "Jette": {
+
+    },
+    "Leuven": {
+
+    }
+
+  },
+  "United Kingdom": {
+    "London": {
+      "Big Ben": {
+        "latitude": 51.5007,
+        "longitude": 0.1246
+      },
+      "Tower of London": {
+        "latitude": 51.5081,
+        "longitude": 0.0759
+      }
+
+    },
+    "Manchester":{
+      "Old Trafford": {
+        "latitude": 53.4631,
+        "longitude": 2.2913
+      }
+
+
+    },
+    "Bristol": {
+
+    },
+    "Liverpool": {
+
+    },
+    "Birmingham": {
+
+    },
+    "Newcastle": {
+
+    },
+    "Leeds": {
+
+    },
+    "Sheffield": {
+
+    },
+    "Brighton": {
+
+    }
+
+
+
+  },
+  "Netherlands": {
+    "Rotterdam": {
+
+    },
+    "The Hague": {
+
+    },
+    "Amsterdam": {
+
+    },
+    "Utrecht": {
+
+    },
+    "Eindhoven": {
+
+    },
+    "Leidenn": {
+
+    },
+    "Groningen": {
+
+    },
+    "Delft": {
+
+    }
+
+  },
+  "Sweden": {
+    "Stockholm": {
+
+    },
+    "Gothenburg": {
+
+    },
+    "Malmo": {
+
+    },
+    "Uppsala": {
+
+    },
+    "Helsingborg": {
+
+    },
+    "Halmstad": {
+
+    },
+    "Lund": {
+
+    }
+
+  },
+  "Switzerland": {
+    "Zurich": {
+
+    },
+    "Geneva": {
+
+    },
+    "Basel": {
+
+    },
+    "Lausanne": {
+
+    },
+    "Lucerne": {
+
+    },
+    "Bern": {
+
+    }
+
+  },
+  "Spain": {
+    "Madrid": {
+
+    },
+    "Barcelona": {
+
+    },
+    "Seville": {
+
+    },
+    "Granada": {
+
+    },
+    "Bilbao": {
+
+    }
+
+
+  },
+  "Italy": {
+    "Rome": {
+
+    },
+    "Venice": {
+
+    },
+    "Milan": {
+
+    },
+    "Bologna": {
+
+    },
+    "Turin": {
+
+    },
+    "Verona": {
+
+    }
+
+  },
+  "France": {
+    "Paris": {
+
+    },
+    "Lyon": {
+
+    },
+    "Bordeoux": {
+
+    },
+    "Marseille": {
+
+    },
+    "Strasbourg": {
+
+    },
+    "Toulouse": {
+
+    },
+    "Lille": {
+
+    }
+
+  },
+  "Argentina": {
+    "Buenos Aires": {
+
+    },
+    "Mendoza": {
+
+    },
+    "Salta": {
+
+    },
+    "Ushuaia": {
+
+    },
+    "La Plata": {
+
+    },
+    "Mar del Plata": {
+
+    }
+
+  },
+  "Germany": {
+    "Berlin": {
+
+    },
+    "Munich": {
+
+    },
+    "Hamburg": {
+
+    },
+    "Frankfurt": {
+
+    },
+    "Cologne": {
+
+    },
+    "Stuttgart": {
+
+    }
+
+  }
+}
+
+
