@@ -1,0 +1,67 @@
+
+# List of Countries with coordinates
+
+       "United States of America"      "latitude":  37.0902   "longitude":  95.7129
+       "Belgium"                 "latitude": 50.5039    "longitude":  4.4699
+       "United Kingdom"            "latitude": 52.3555   "longitude":  1.1743
+       "Netherlands"             "latitude": 52.1326  "longitude":  5.2913
+       "Sweden"               "latitude":  60.1282    "longitude":  18.6435
+       "Switzerland"                "latitude":  46.8182   "longitude":  8.2275
+       "Armenia"                "latitude":    "longitude":
+       "Spain"                "latitude": 40.4637    "longitude": 3.7492
+       "Italy"                 "latitude":  41.8719   "longitude": 12.5674
+       "France"             "latitude": 46.2276   "longitude":  2.2137
+       "Argentina"              "latitude":     "longitude":
+       "Germany"                "latitude": 51.1657    "longitude": 10.4515
+       "Austria"                "latitude": 47.516231    "longitude": 14.550072
+
+# List of Cities in Armenia with coordinates
+
+"Abovyan (Kotayk)"         "latitude": 40.26741   "longitude": 44.62656
+"Akhuryan (Shirak)"        "latitude": 40.78003   "longitude": 43.90027
+"Alaverdi (Lorri)"         "latitude": 41.09766  "longitude": 44.67316
+"Aparan (Aragatsotn)"      "latitude": 40.59323  "longitude": 44.3589
+"Ararat (Ararat)"          "latitude": 39.83166   "longitude": 44.70489
+"Armavir (Armavir)"        "latitude": 40.15446  "longitude": 44.03815
+"Artashat (Ararat)"        "latitude": 39.96144  "longitude": 44.54447
+"Ashtarak (Aragatsotn)"    "latitude": 40.2991   "longitude": 44.36204
+"Berd (Tavush)"            "latitude": 40.88135  "longitude": 45.38901
+"Byureghavan (Kotayk)"     "latitude": 40.31485  "longitude": 44.59396
+"Chambarak (Gegharkunik)"  "latitude": 40.59655  "longitude": 45.35498
+"Dilijan (Tavush)"         "latitude": 40.74103   "longitude": 44.86362
+"Yerevan (Yerevan)"        "latitude": 40.18111   "longitude": 44.51361
+
+ # List of Districts in Yerevan with coordinates
+
+"Ajapnyak"                 "latitude": 40.2200 "longitude": 44.4360
+"Arabkir"                  "latitude": 40.1928 "longitude":  44.4689
+"Avan"                     "latitude": 40.215  "longitude":  44.579
+"Davtashen"                "latitude": 40.2203 "longitude":  44.4882
+"Erebuni"                  "latitude": 40.1280 "longitude":  44.5414
+"Kanaker-Zeytun"           "latitude": 40.2051 "longitude":  44.5406
+"Kentron"                  "latitude": 40.1792  "longitude": 44.5095
+"Malatia-Sebastia"         "latitude": 40.1686  "longitude":  44.4575
+"Nork-Marash"              "latitude": 40.1846 "longitude": 44.5408
+"Nor Nork"                 "latitude": 40.1899  "longitude": 44.5825
+"Nubarashen"               "latitude": 40.0870  "longitude":  44.5418
+"Shengavit"                "latitude": 40.1379 "longitude": 44.4787
+
+ # List of Places in Yerevan with coordinates
+
+"Sport/Concert Complef named After Karen Demirchyan"        "latitude": 40.187999   "longitude": 44.482983
+"Tumo Center for Creative Technologies"                     "latitude": 40.196610  "longitude": 44.480308
+"Barekamutyan Hraparak"                                     "latitude": 40.197661  "longitude":  44.493046
+"Mergelyan Institute"                                       "latitude": 40.199576 "longitude": 44.490724
+"Slavmed Medical Center"                                    "latitude": 40.195260 "longitude": 44.493140
+"American University of Armenia"                            "latitude": 40.193179 "longitude": 44.504364
+"Residence of the Prime Minister of the RA"                 "latitude": 40.192714 "longitude":  44.506221
+"National Academy of Sciences of Armenia"                   "latitude": 40.192348, "longitude":  44.508769
+"National Assembly of Armenia"                              "latitude": 40.190083 "longitude":  44.509090
+"France Square"                                             "latitude": 40.187141 "longitude":  44.515370
+"Armenian Opera Theatre"                                    "latitude": 40.185873 "longitude": 44.514941
+"Republic Square"                                           "latitude": 40.177633 "longitude": 44.512612
+"English Park"                                              "latitude": 40.174091  "longitude": 44.508063
+"Matenadaran"                                               "latitude": 40.19207   "longitude": 44.52113
+"Cascade"                                                   "latitude": 40.1911 "longitude": 44.5156
+"Tsitsernakaberd"                                           "latitude": 40.1858  "longitude": 44.4905
+"Victory Park"                                              "latitude": 40.1957  "longitude": 44.5203
