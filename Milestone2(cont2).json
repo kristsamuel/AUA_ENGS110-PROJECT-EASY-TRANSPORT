@@ -1,0 +1,98 @@
+{
+  "air" : {
+    "helicopter": {
+      "driver_ID": "B1245",
+      "license_plate": "83AB12",
+      "departure_to_destination": null,
+      "travel_duration_min": null,
+      "online_ticket_purchase": true
+    },
+    "airplane": {
+      "pilot_ID": "A5654",
+      "departure_to_destination": null,
+      "travel_duration_min": null,
+      "online_ticket_purchase": true
+    }
+  },
+  "land" : {
+    "metro": {
+      "ID": 1,
+      "driver_ID": "K1344",
+      "departure_to_destination": "Barekamutyun-Garegin Nzhdeh Square",
+      "travel_duration_min": "30",
+      "online_ticket_purchase": false
+    },
+    "bicycle": {
+      "ID": 2,
+      "Driver_ID": "H1287",
+      "location": "Null"
+    },
+    "minibus": {
+      "ID": 3,
+      "driver_ID": "A9999",
+      "license_plate": "56KL124",
+      "departure_to_destination": "Erebuni Airport-Zoravar Andranik str",
+      "travel_duration_min": "40",
+      "online_ticket_purchase": false,
+      "location": "Null"
+    },
+    "taxi": {
+      "ID": 4,
+      "driver_ID": "A1454",
+      "license_plate": "23BA345",
+      "initial_fare": "500",
+      "final_fare": "Null",
+      "online_order": true,
+      "location": null
+    },
+    "bus": {
+      "ID": 5,
+      "driver_ID": "A1234",
+      "license_plate": "11AB123",
+      "departure_to_destination": "South-Western district_Nor Norq 9th district",
+      "travel_duration_min": "60",
+      "online_ticket_purchase": true,
+      "location": "Null"
+    }
+  },
+  "water" : {
+    "boat": {
+    "driver_ID": "C1245",
+    "license_ID": "K1941",
+    "departure_to_destination": null,
+    "travel_duration_min": null,
+    "online_ticket_purchase": true
+    },
+    "jet scooter": {
+      "driver_ID": "P8351",
+      "license_ID": "W3814",
+      "departure_to_destination": null,
+      "travel_duration_min": null,
+      "online_ticket_purchase": true
+    },
+    "motor boat": {
+      "driver_ID": "R1345",
+      "license_ID": "M1234",
+      "departure_to_destination": null,
+      "travel_duration_min": null,
+      "online_ticket_purchase": true
+    },
+    "passenger boat": {
+      "driver_ID": "D1234",
+      "license_ID": "F1234",
+      "departure_to_destination": null,
+      "travel_duration_min": null,
+      "online_ticket_purchase": true
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
