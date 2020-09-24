@@ -1,13 +1,13 @@
 def bubble_sort(books):
-    indexing_length = len(books) - 1
-    sorted = False
+    index_length = len(books) - 1
+    swapped = False
 
     while not sorted:
-        sorted = True
+        swapped = True
 
-        for i in range(0, indexing_length):
+        for i in range(0, index_length):
             if books[i] > books[i+1]:
-                sorted = False
+                swapped = False
                 books[i], books[i+1] = books[i+1], books[i]
     return books
 
