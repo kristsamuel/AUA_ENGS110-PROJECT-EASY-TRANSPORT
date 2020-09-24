@@ -1,0 +1,16 @@
+def bubble_sort(books):
+    indexing_length = len(books) - 1
+    sorted = False
+
+    while not sorted:
+        sorted = True
+
+        for i in range(0, indexing_length):
+            if books[i] > books[i+1]:
+                sorted = False
+                books[i], books[i+1] = books[i+1], books[i]
+    return books
+
+list_of_book = {"published_year1":1999, "published_year2": 1998, "published_year3":2008}
+books = list(dict.values(list_of_book))
+print(bubble_sort(books))
