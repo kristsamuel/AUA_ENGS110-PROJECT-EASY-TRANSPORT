@@ -1,0 +1,25 @@
+{
+  "list_of_books": [
+    {
+      "title": "Calculus",
+      "author": "John Daisy",
+      "edition": "1st edition",
+      "publisher": "Manmar",
+      "published_year": 1999
+    },
+    {
+      "title": "Algebra",
+      "author": "Jack Smith",
+      "edition": "2nd edition",
+      "publisher": "Zangak",
+      "published_year": 1998
+    },
+    {
+      "title": "Geometry",
+      "author": "Sam Garcia",
+      "edition": "3rd edition",
+      "publisher": "Arevik",
+      "published_year": 2008
+    }
+  ]
+}
