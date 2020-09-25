@@ -1,16 +1,41 @@
-def bubble_sort(books):
-    index_length = len(books) - 1
-    swapped = False
+import json
+def bubble_sort(all_books):
 
-    while not sorted:
-        swapped = True
+    for i in range(0, len(all_books)-1):
+      for j in range(0, len(all_books)-1-i ):
+        if all_books[j]["published_year"] > all_books[j+1]["published_year"]:
+            value = all_books[j]
+            all_books[j] = all_books[j+1]
+            all_books[j+1] = value
 
-        for i in range(0, index_length):
-            if books[i] > books[i+1]:
-                swapped = False
-                books[i], books[i+1] = books[i+1], books[i]
-    return books
+def main():
+    def get_data():
+        all_books = {}
+        with open("bookinfo.json") as file_data:
+            all_books = json.load(file_data)
 
-list_of_book = {"published_year1":1999, "published_year2": 1998, "published_year3":2008}
-books = list(dict.values(list_of_book))
-print(bubble_sort(books))
+        return all_books
+
+    all_books = get_data()
+    bubble_sort(all_books["list_of_books"])
+    def display(current):
+
+      if (type(current) == list):
+        for item in current:
+            display (item)
+            print(", ", end="")
+        print("\n", end="")
+
+      elif (type(current) == dict):
+        for key in current:
+            print("\n", key, ": ", end="")
+            display(current[key])
+
+      else:
+        print(current, "", end="")
+
+    for obj in all_books["list_of_books"]:
+        display(obj)
+
+
+main()
