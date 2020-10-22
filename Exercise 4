@@ -1,0 +1,24 @@
+#4. Implement a function which receives a double linked list and returns two lists one containing
+#elements placed at even indexes of the original list and another containing odd placed elements.
+#(15 points)
+
+
+
+def divide_to_odd_and_even_linked_list(linked_list: DoubleLinkedList):
+    odd_position_list = DoubleLinkedList()
+    even_position_list = DoubleLinkedList()
+    current_node = linked_list.get_first()
+    while current_node is not None:
+        even_position_list.insert_last(current_node.data)
+        linked_list.remove(current_node.data)
+        try:
+            current_node = current_node.next.next
+        except AttributeError:
+            break
+    current_node = linked_list.get_first()
+    while current_node is not None:
+        odd_position_list.insert_last(current_node.data)
+        linked_list.remove(current_node.data)
+        current_node = current_node.next
+    return even_position_list, odd_position_list
+
