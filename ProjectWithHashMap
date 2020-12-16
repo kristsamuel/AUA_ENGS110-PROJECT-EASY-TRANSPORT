@@ -1,0 +1,200 @@
+import json
+from math import radians, cos, sin, asin, sqrt
+from HashMap import *
+
+class transportField:
+    def __init__(self):
+        self.names = "Land, Air, Water"
+
+class transportType:
+    def __init__(self, field):
+        if field == "Land":
+            self.names = "Metro, Bicycle, Minibus, Bus, Taxi"
+
+        else:
+            print("Please choose the correct option")
+            self.names = 0
+
+class transport:
+    def __init__(self, type):
+        if type == "Metro":
+            self.ID = 1
+            self.driver_ID = "K1344"
+            self.departure_to_destination = "Barekamutyun-Garegin Nzhdeh Square"
+            self.travel_duration_min = "30"
+            self.online_ticket_purchase = "false"
+
+        else:
+            print("Please choose the correct option")
+            self.ID = 0
+
+class countries:
+    def __init__(self):
+        self.names = "Armenia, Austria"
+
+class cities:
+    def __init__(self, country):
+        if country == "Armenia":
+            self.names = "Yerevan, Gyumri"
+
+        elif country == "Austria":
+            self.names = "Vienna, Innsbruck"
+        else:
+            print("Please choose the correct option")
+
+class places:
+    def __init__(self, city):
+        if city == "Yerevan":
+            self.names = "Tumo Center for Creative Technologies, Barekamutyan Hraparak"
+
+
+        elif city == "Austria":
+            self.names = "The Hofburg"
+
+        else:
+            print("Please choose the correct option")
+
+class coordinates:
+    def __init__(self, place):
+        if place == "Tumo Center for Creative Technologies":
+            self.longitude = 40.196610
+            self.latitude = 44.480308
+
+        elif place == "Barekamutyan Hraparak":
+            self.longitude = 40.197661
+            self.latitude = 44.493046
+        else:
+            print("Please choose the correct option")
+
+#   Loads json for 3 data files
+def json_load():
+    with open('all_locations.json') as json_file:
+        texer = json.load(json_file)
+
+    with open("all_transport.json") as json_file:
+        chyuxer = json.load(json_file)
+
+    with open("EZ_Transport.json") as json_file:
+        tesakner = json.load(json_file)
+
+    with open("coordinates.json.json") as json_file:
+        cordinat = json.load(json_file)
+
+    return texer, chyuxer, tesakner, cordinat
+
+
+#   Converts 3 json files to HashMap
+def json_to_hashmap(transportations, field, type):
+    transportationHash = HashMap()
+    for elem in all_transport:
+        transportationHash.put(elem, transportations(elem, all_transport[elem]))
+
+    fieldHash = HashMap()
+    for elem in EZ_transport:
+        fieldHash.put(elem, field(elem, EZ_transport[elem]))
+
+    typeHash = HashMap()
+    for elem in EZ_transport:
+        typeHash.put(elem, type(elem, EZ_transport[elem]))
+
+    return transportationHash, fieldHash, typeHash
+
+
+class functional2:
+
+    def loadTransportations(self):
+        avtoner = transportField()
+        print(avtoner.names)
+
+    def chooseField(self):
+        SelectedField = input("\nPlease select your Avto from the list above")
+        return SelectedField
+
+    def loadTransportType(self, field):
+        tesakner = transportType(field)
+        if tesakner.names == 0:
+            functions = functional2()
+            field = functions.chooseField()
+            functions.loadTransportType(field)
+
+
+        else:
+            print(tesakner.names)
+
+
+    def chooseType(self):
+        SelectedType = input("\nPlease select your Tesak from the list above")
+        return SelectedType
+
+    def printTypeInfo(self, type):
+        tesak = transport(type)
+        if tesak.ID == 0:
+            functions = functional2()
+            type = functions.chooseType()
+            functions.printTypeInfo(type)
+        else:
+            print("Departure to Destination =",tesak.departure_to_destination, "\nDriver ID=",tesak.driver_ID, "\nID=",tesak.ID, "\nOnline ticket Purchase=",tesak.online_ticket_purchase, "\nTravel Duration=",tesak.travel_duration_min, "\n------------------------------------\n")
+
+    def loadLocations(self):
+        erkrner = countries()
+        print(erkrner.names)
+
+    def chooseCountry(self):
+        SelectedCountry = input("\nPlease select your Country from the list above")
+        return SelectedCountry
+
+    def loadCities(self, country):
+        qaxaqner = cities(country)
+        print(qaxaqner.names)
+
+    def chooseCity(self):
+        SelectedCity = input("\nPlease select your City from the list above")
+        return SelectedCity
+
+    def loadPlaces(self, city):
+        texer = places(city)
+        print(texer.names)
+
+    def choosePlace(self):
+        SelectedPlace = input("\nPlease select your Place from the list above")
+        return SelectedPlace
+
+    def CalculateDistance(self, InitialLatitude, InitialLongitude, FinalLatitude, FinalLongitude):
+
+        InitialLong = radians(InitialLongitude)
+        FinalLong = radians(FinalLongitude)
+        InitialLat = radians(InitialLatitude)
+        FinalLat = radians(FinalLatitude)
+        differenceLongitude = FinalLong - InitialLong
+        differenceLatitude = FinalLat - InitialLat
+        a = sin(differenceLatitude / 2) ** 2 + cos(InitialLat) * cos(FinalLat) * sin(differenceLongitude / 2) ** 2
+        c = 2 * asin(sqrt(a))
+        r = 6371
+        return (c * r)
+
+
+
+def main():
+    functions = functional2()
+    functions.loadTransportations()
+    chosenField = functions.chooseField()
+    functions.loadTransportType(chosenField)
+    chosenType = functions.chooseType()
+    functions.printTypeInfo(chosenType)
+    functions.loadLocations()
+    InitialSelectedCountry = functions.chooseCountry()
+    functions.loadCities(InitialSelectedCountry)
+    InitialSelectedCity = functions.chooseCity()
+    functions.loadPlaces(InitialSelectedCity)
+    InitialSelectedPlace = functions.choosePlace()
+    InitialCords = coordinates(InitialSelectedPlace)
+    functions.loadLocations()
+    FinalSelectedCountry = functions.chooseCountry()
+    functions.loadCities(FinalSelectedCountry)
+    FinalSelectedCity = functions.chooseCity()
+    functions.loadPlaces(FinalSelectedCity)
+    FinalSelectedPlace = functions.choosePlace()
+    FinalCords = coordinates(FinalSelectedPlace)
+    distance = functions.CalculateDistance(InitialCords.latitude, InitialCords.longitude, FinalCords.latitude, FinalCords.longitude)
+    print(distance, "K.M")
+main()
